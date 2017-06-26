@@ -69,6 +69,9 @@
     ;; edit html tags like sexps
     tagedit
 
+    ;; autocompletion
+    company
+
     ;; git integration
     magit))
 

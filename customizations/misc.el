@@ -10,3 +10,6 @@
 
 ;; Go straight to scratch buffer on startup
 (setq inhibit-startup-message t)
+
+;; enable auto-completion
+(global-company-mode)
