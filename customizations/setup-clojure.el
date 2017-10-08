@@ -12,6 +12,9 @@
 ;; A little more syntax highlighting
 (require 'clojure-mode-extra-font-locking)
 
+;; default is `:host ::` which only works for ipv6
+(setq cider-lein-parameters "repl :headless :host localhost")
+
 ;; syntax hilighting for midje
 (add-hook 'clojure-mode-hook
           (lambda ()
