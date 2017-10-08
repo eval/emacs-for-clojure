@@ -12,6 +12,9 @@
 ;; A little more syntax highlighting
 (require 'clojure-mode-extra-font-locking)
 
+;; spec-browser needs this
+(require 'help-mode)
+
 ;; default is `:host ::` which only works for ipv6
 (setq cider-lein-parameters "repl :headless :host localhost")
 
