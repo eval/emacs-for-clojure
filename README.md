@@ -1,5 +1,8 @@
 # this is a Clojure-friendly emacs config
 
+DEBUG:
+docker run -it --rm -p 3449:3449 -v ~/.m2:/root/.m2:delegated -v $PWD:/root/project:delegated -v ~/src/my-emacs-for-clojure:/root/.emacs.d registry.gitlab.com/eval/docker-lein-emacs:cider-0.14.0 emacs /root/project
+
 If you're new to emacs, check out
 [this introductory tutorial](http://www.braveclojure.com/basic-emacs/)!
 
